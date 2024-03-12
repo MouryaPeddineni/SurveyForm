@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: courier new;
+  background-color: cyan;
+  margin-top: 20px;
+  text-align: center;
+}
+
+body {
+  background: url("https://media.istockphoto.com/id/1481998602/vector/modern-colorful-grunge-textures-and-patterns-vector.webp?s=1024x1024&w=is&k=20&c=sBXPShNAcJdUu-NO4QXKNuOb71d1-kfpW1CI0JN12N4=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: fixed;
+}
+
+form {
+  font-family: monospace;
+  font-weight: bold;
+  box-shadow: pink 5px 5px;
+  background-color:  #778899;
+  height: auto;
+  width: 90vw;
+  border: 2px solid black;
+  margin: 20px auto;
+  font-size: 25px;
+  max-width: 800px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  margin-top: 5px;
+  height: 30px;
+  width: 100%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+}
+
+label {
+  display: block;
+  margin: 35px;
+}
+
+select {
+  margin-top: 5px;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+}
+
+option {
+  font-size: 15px;
+}
+
+button {
+  display: block;
+}
+
+.para {
+  padding-left: 35px;
+}
+
+textarea {
+  font-size: 18px;
+  margin-left: 35px;
+  border-radius: 5px;
+  padding: 15px;
+  width: 90%;
+}
+
+#submit {
+  border-radius: 5px;
+  height: 40px;
+  font-size: 20px;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin: 10px 35px;
+  background-color: green;
+  border: 2px solid black;
+  color: white  ;
+}
+
+.r, .c {
+  font-family: copperplate;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.para {
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+#description {
+  text-align: center;
+  background-color: #FFB6C1;
+  font-size: 18px;
+  padding: 5px;
+}
